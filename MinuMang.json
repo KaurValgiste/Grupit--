@@ -9812,6 +9812,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "EnemyBlock",
+          "persistentUuid": "07a53073-4903-4b06-9d2d-e59bc62854cb",
+          "width": 0,
+          "x": -64,
+          "y": -32,
+          "zOrder": 294,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
