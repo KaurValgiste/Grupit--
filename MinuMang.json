@@ -516,7 +516,7 @@
       {
         "file": "NewTiledSprite3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite3.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite3.png",
         "smoothed": false,
         "userAdded": false
@@ -532,7 +532,7 @@
       {
         "file": "NewTiledSprite.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite.png",
         "smoothed": false,
         "userAdded": false
@@ -540,7 +540,7 @@
       {
         "file": "NewTiledSprite4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite4.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite4.png",
         "smoothed": false,
         "userAdded": false
@@ -548,7 +548,7 @@
       {
         "file": "NewTiledSprite5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite5.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite5.png",
         "smoothed": false,
         "userAdded": false
@@ -572,7 +572,7 @@
       {
         "file": "NewTiledSprite12.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite12.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite12.png",
         "smoothed": false,
         "userAdded": false
@@ -3080,7 +3080,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.1227886769151567,
+        "zoomFactor": 1.4739173426855867,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
