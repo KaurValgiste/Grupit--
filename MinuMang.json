@@ -3020,6 +3020,127 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "red_block1",
+      "persistentUuid": "05336ec4-6de3-42ba-950f-4e516d47916c",
+      "texture": "NewTiledSprite3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "dark_red_block1",
+      "persistentUuid": "3640f5db-b27d-48d5-9c99-2a51c25ea4a6",
+      "texture": "NewTiledSprite12.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "red_block3",
+      "persistentUuid": "d78d3fe4-d70a-4adb-a702-d29b246cb414",
+      "texture": "NewTiledSprite.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "WT_red_block4",
+      "persistentUuid": "a8fd11c5-0eb5-48e0-9c96-f434fd67781c",
+      "texture": "NewTiledSprite4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "WT_red_block5",
+      "persistentUuid": "aa78316b-755b-47e0-bc92-328f8110958e",
+      "texture": "NewTiledSprite5.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 9,
+      "name": "moving",
+      "persistentUuid": "b915c095-d47b-477c-a95f-71f9a0f097eb",
+      "texture": "Platform_JumpThrough2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "Jumpthru",
+          "canBeGrabbed": true,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 100,
+          "Height": 0,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 1.75,
+          "VerticalEdgeDuration": 1,
+          "Left": 0,
+          "Top": 0,
+          "Progress": 0,
+          "OldX": 0,
+          "OldY": 0,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3051,6 +3172,24 @@
       },
       {
         "objectName": "scoretxt"
+      },
+      {
+        "objectName": "red_block1"
+      },
+      {
+        "objectName": "dark_red_block1"
+      },
+      {
+        "objectName": "red_block3"
+      },
+      {
+        "objectName": "WT_red_block4"
+      },
+      {
+        "objectName": "WT_red_block5"
+      },
+      {
+        "objectName": "moving"
       }
     ]
   },
@@ -3080,7 +3219,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6432750234616745,
+        "zoomFactor": 1.02338605660283,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3104,8 +3243,8 @@
           "name": "Goblin",
           "persistentUuid": "1ea31cef-7270-4e32-b813-6d06a7bd11f2",
           "width": 0,
-          "x": 48,
-          "y": 45,
+          "x": 0,
+          "y": -16,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -6117,43 +6256,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 9,
-          "name": "moving",
-          "persistentUuid": "b915c095-d47b-477c-a95f-71f9a0f097eb",
-          "texture": "Platform_JumpThrough2.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "Jumpthru",
-              "canBeGrabbed": true,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 100,
-              "Height": 0,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 1.75,
-              "VerticalEdgeDuration": 1,
-              "Left": 0,
-              "Top": 0,
-              "Progress": 0,
-              "OldX": 0,
-              "OldY": 0,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
-              "ToogleClockwise": false
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "tutorial",
           "persistentUuid": "75f8df39-c9ef-4e74-b7aa-0731bf4fc469",
           "type": "BitmapText::BitmapTextObject",
@@ -6218,26 +6320,6 @@
           "name": "DeepDirt",
           "persistentUuid": "968b7642-4150-4d8d-93e2-50cbfd122810",
           "texture": "NewTiledSprite7.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "dark_red_block1",
-          "persistentUuid": "3640f5db-b27d-48d5-9c99-2a51c25ea4a6",
-          "texture": "NewTiledSprite12.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 16,
           "variables": [],
@@ -6342,70 +6424,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 16,
-          "name": "red_block1",
-          "persistentUuid": "05336ec4-6de3-42ba-950f-4e516d47916c",
-          "texture": "NewTiledSprite3.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "red_block3",
-          "persistentUuid": "d78d3fe4-d70a-4adb-a702-d29b246cb414",
-          "texture": "NewTiledSprite.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "WT_red_block4",
-          "persistentUuid": "a8fd11c5-0eb5-48e0-9c96-f434fd67781c",
-          "texture": "NewTiledSprite4.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 16,
-          "name": "WT_red_block5",
-          "persistentUuid": "aa78316b-755b-47e0-bc92-328f8110958e",
-          "texture": "NewTiledSprite5.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 16,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
           "height": 32,
           "name": "NewTiledSprite",
           "persistentUuid": "87ff48d9-4302-4fff-8846-278f894325a0",
@@ -6442,9 +6460,6 @@
             "objectName": "dirt3"
           },
           {
-            "objectName": "moving"
-          },
-          {
             "objectName": "tutorial"
           },
           {
@@ -6455,21 +6470,6 @@
           },
           {
             "objectName": "Jump_"
-          },
-          {
-            "objectName": "red_block1"
-          },
-          {
-            "objectName": "red_block3"
-          },
-          {
-            "objectName": "dark_red_block1"
-          },
-          {
-            "objectName": "WT_red_block4"
-          },
-          {
-            "objectName": "WT_red_block5"
           },
           {
             "objectName": "NewTiledSprite"
@@ -7208,7 +7208,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.5289132892233257,
+        "zoomFactor": 0.9610368693714729,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7233,8 +7233,8 @@
           "name": "dirt1",
           "persistentUuid": "63a11386-4542-4176-ab19-fac1f2b5d2c5",
           "width": 336,
-          "x": 640,
-          "y": 384,
+          "x": 0,
+          "y": 112,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7249,8 +7249,8 @@
           "name": "Goblin",
           "persistentUuid": "7028910c-815f-4d34-8b15-0ae234ec293a",
           "width": 0,
-          "x": 720,
-          "y": 352,
+          "x": 128,
+          "y": 93,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -7633,6 +7633,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement"
         },
         {
           "name": "Resizable",
