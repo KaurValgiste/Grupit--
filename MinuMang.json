@@ -3080,7 +3080,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.4739173426855867,
+        "zoomFactor": 0.6432750234616745,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3105,7 +3105,7 @@
           "persistentUuid": "1ea31cef-7270-4e32-b813-6d06a7bd11f2",
           "width": 0,
           "x": 48,
-          "y": 16,
+          "y": 45,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
